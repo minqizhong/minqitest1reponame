@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:SubstationInternalConnectivity xsi:schemaLocation="http://www.sce.com/2019/05/SubstationInternalConnectivity/SubstationInternalConnectivity.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.sce.com/2019/05/SubstationInternalConnectivity">
+    <m:BaseVoltage>
+        <m:mRID>_b39f5ecf-abc6-4cac-b76d-824fd96a8ca3</m:mRID>
+        <m:aliasName>SOURCE_VOLTAGE</m:aliasName>
+        <m:name>33456.0</m:name>
+        <m:nominalVoltage>
+            <m:multiplier>k</m:multiplier>
+            <m:unit>V</m:unit>
+            <m:value>33.0</m:value>
+        </m:nominalVoltage>
+        <m:RelatedValue>
+            <m:type>NOMINAL_STANDARD_VOLTAGE</m:type>
+            <m:unit>V</m:unit>
+            <m:unitMultiplier>k</m:unitMultiplier>
+            <m:value>34.4</m:value>
+        </m:RelatedValue>
+        <m:RelatedValue>
+            <m:type>VOLTAGE_CLASS</m:type>
+            <m:unit>V</m:unit>
+            <m:unitMultiplier>k</m:unitMultiplier>
+            <m:value>33</m:value>
+        </m:RelatedValue>
+        <m:RelatedValue>
+            <m:type>STATIC_VOLTAGE</m:type>
+            <m:unit>V</m:unit>
+            <m:unitMultiplier>k</m:unitMultiplier>
+            <m:value>34.5</m:value>
+        </m:RelatedValue>
+    </m:BaseVoltage>
+               <m:mRID>46</m:mRID>
+            <m:name>VALLEY</m:name>
+            <m:Region>
+                <m:mRID>3</m:mRID>
+                <m:name>SAN JACINTO VALLEY</m:name>
+                <m:Zone>
+                    <m:mRID>4</m:mRID>
+                    <m:name>SOUTHERN</m:name>
+                </m:Zone>
+            </m:Region>
+        </m:TransmissionSystem>
+        <m:VoltageLevel>
+            <m:mRID>_27925973-6542-4353-9f16-521b565b6752</m:mRID>
+            <m:name>GAVILAN 12</m:name>
+            <m:BaseVoltage ref="_8dfe7bc5-31ce-4194-914b-f5db09052ee4"/>
+        </m:VoltageLevel>
+        <m:VoltageLevel>
+            <m:mRID>_6d4fac0f-b6db-42ce-98a6-fbaff2ad7ee6</m:mRID>
+            <m:name>GAVILAN 33</m:name>
+            <m:BaseVoltage ref="_b39f5ecf-abc6-4cac-b76d-824fd96a8ca3"/>
+        </m:VoltageLevel>
+    </m:Substation>
+</m:SubstationInternalConnectivity>
