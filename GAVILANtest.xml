@@ -3,7 +3,7 @@
     <m:BaseVoltage>
         <m:mRID>_b39f5ecf-abc6-4cac-b76d-824fd96a8ca3</m:mRID>
         <m:aliasName>SOURCE_VOLTAGE</m:aliasName>
-        <m:name>33456.0</m:name>
+        <m:name>334567.0</m:name>
         <m:nominalVoltage>
             <m:multiplier>k</m:multiplier>
             <m:unit>V</m:unit>
